@@ -39,7 +39,7 @@ setup(
         'threadloop>=1,<2',
         # we want thrift>=0.9.2.post1,<0.9.3, but we let the users pin to that
         'thrift',
-        'tornado>=4.3,<5',
+        'tornado==4.5.2',
         'opentracing>=1.2.2,<1.3',
     ],
     # Uncomment below if need to test with unreleased version of opentracing
